@@ -3,7 +3,6 @@
 // Variables exported by this module can be imported by other packages and
 // applications. See prosemirror-tests.js for an example of importing.
 
-// import { ProseMirror } from "prosemirror/dist/edit"
-import { Prosemirror } from 'prosemirror';
+import { ProseMirror } from "prosemirror/dist/edit"
 
-export const name = 'Prosemirror';
+export const Prosemirror = ProseMirror;

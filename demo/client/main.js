@@ -5,20 +5,18 @@ import { Prosemirror } from 'meteor/prosemeteor:prosemirror'
 
 import './main.html';
 
-Template.hello.onCreated(function helloOnCreated() {
-  // counter starts at 0
-  this.counter = new ReactiveVar(0);
+Template.prosemeteor.onCreated(function helloOnCreated() {
+  this.msg = new ReactiveVar("");
+  if(Prosemirror) {
+  	this.msg.set("Prosemirror has loaded successfully");
+  } else {
+  	this.msg.set("Prosemirror has NOT loaded successfully");
+  };
+  console.log(this.msg.get());
 });
 
-Template.hello.helpers({
-  counter() {
-    return Template.instance().counter.get();
-  },
-});
-
-Template.hello.events({
-  'click button'(event, instance) {
-    // increment the counter when button is clicked
-    instance.counter.set(instance.counter.get() + 1);
+Template.prosemeteor.helpers({
+  msg() {
+    return Template.instance().msg.get();
   },
 });
