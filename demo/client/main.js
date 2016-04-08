@@ -13,9 +13,13 @@ Template.prosemeteor.onCreated(function helloOnCreated() {
     this.msg.set("Prosemirror has NOT loaded successfully");
   };
   console.log(this.msg.get());
+});
 
+
+Template.prosemeteor.onRendered(function helloOnCreated() {
+  console.log(document.querySelector(".full"));
   let editor = new Prosemirror({
-    place: document.body,
+    place: document.querySelector(".full"),
     menuBar: true,
     autoInput: true,
     tooltipMenu: {selectedBlockMenu: true},
