@@ -16,7 +16,11 @@ Template.prosemeteor.onCreated(function helloOnCreated() {
 
   let editor = new Prosemirror({
     place: document.body,
-    menuBar: true
+    menuBar: true,
+    autoInput: true,
+    tooltipMenu: {selectedBlockMenu: true},
+    doc: "Placeholder content",
+    docFormat: "html"
   });
 
 });
