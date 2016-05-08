@@ -2,6 +2,7 @@ import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
 import { Prosemirror } from 'meteor/prosemeteor:prosemirror'
 
+console.log(Prosemirror)
 
 import './main.html';
 
