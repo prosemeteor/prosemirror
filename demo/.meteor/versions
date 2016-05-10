@@ -55,6 +55,7 @@ random@1.0.9
 reactive-var@1.0.9
 reload@1.1.8
 retry@1.0.7
+rocketchat:streamer@0.3.5
 routepolicy@1.0.10
 spacebars@1.0.11
 spacebars-compiler@1.0.11

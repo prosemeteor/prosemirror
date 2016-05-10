@@ -17,6 +17,7 @@ Npm.depends({
 Package.onUse(function(api) {
   api.versionsFrom('1.3');
   api.use('ecmascript');
+  api.use('rocketchat:streamer@0.3.5');
   api.mainModule('lib/client/main.js','client');
   api.mainModule('lib/server/main.js','server');
 });
