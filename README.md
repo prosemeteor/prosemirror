@@ -8,3 +8,7 @@ The primary goal is to provide a package that provides realtime collaborative WY
 Discussion for the ProseMeteor project will take place on Humon [ProseMeteor Wiki](https://humon.com/Prosemeteor/RJsnS9dyAH8k6cuma/Home/STisHoM8MxcqgTxGw)
 
 The wiki is readable by everyone but if you would like to contribute please contact funkyeah@gmail.com for an invite.
+
+
+## Developing
+To run the demo, use the `run_demo.sh` script. First give it executable permissions with `chmod +x ./run_demo.sh`, then run it with `./run_demo.sh`.
