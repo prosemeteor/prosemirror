@@ -25,9 +25,7 @@ Template.prosemeteor.onRendered(function helloOnCreated() {
     place: document.querySelector(".full"),
     menuBar: true,
     autoInput: true,
-    tooltipMenu: {selectedBlockMenu: true},
-    doc: "Placeholder content",
-    docFormat: "html",
+    tooltipMenu: {selectedBlockMenu: true}
   });
   // above should use plugin from Prosemeteor package with option enabled
   // prosemeteor plugin takes the desired document id as a parameter
