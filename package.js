@@ -11,8 +11,8 @@ Package.describe({
 });
 
 Npm.depends({
-  //  using local version in imports/prosemirror for now because the latest publish was a month ago and collab module API has changed since then, we
-  //  want the latest changes
+  //  using local version in imports/prosemirror for now because the latest publish was a month ago and collab module API has changed since then,
+  // we want the latest changes
   // prosemirror: '0.6.1'
 });
 
