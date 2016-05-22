@@ -22,10 +22,13 @@ Template.prosemeteor.helpers({
 
 Template.prosemeteor.onRendered(function helloOnCreated() {
   let editor = new ProseMeteorEditor({
-    place: document.querySelector(".full"),
-    menuBar: true,
-    autoInput: true,
-    tooltipMenu: {selectedBlockMenu: true}
+    docId: 'proofOfConceptDocId',
+    proseMirrorOptions: {
+      place: document.querySelector(".full"),
+      menuBar: true,
+      autoInput: true,
+      tooltipMenu: {selectedBlockMenu: true}
+    }
   });
   // above should use plugin from Prosemeteor package with option enabled
   // prosemeteor plugin takes the desired document id as a parameter
