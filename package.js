@@ -19,8 +19,6 @@ Npm.depends({
 Package.onUse(function(api) {
   api.versionsFrom('1.3');
   api.use('ecmascript');
-  api.use('http');
-  api.use('cfs:http-methods@0.0.32');
   api.use('rocketchat:streamer@0.3.5');
   api.use('mdg:validated-method@1.1.0');
   api.use('didericis:callpromise-mixin@0.0.1');
