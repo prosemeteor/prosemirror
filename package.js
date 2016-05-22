@@ -21,7 +21,6 @@ Package.onUse(function(api) {
   api.use('ecmascript');
   api.use('rocketchat:streamer@0.3.5');
   api.use('mdg:validated-method@1.1.0');
-  api.use('didericis:callpromise-mixin@0.0.1');
   api.mainModule('lib/client/client-main.js', 'client');
   api.mainModule('lib/server/server-main.js', 'server');
 });
