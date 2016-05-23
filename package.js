@@ -11,15 +11,18 @@ Package.describe({
 });
 
 Npm.depends({
-  prosemirror: '0.6.1'
+  //  using local version in imports/prosemirror for now because the latest publish was a month ago and collab module API has changed since then,
+  // we want the latest changes
+  // prosemirror: '0.6.1'
 });
 
 Package.onUse(function(api) {
   api.versionsFrom('1.3');
   api.use('ecmascript');
   api.use('rocketchat:streamer@0.3.5');
-  api.mainModule('lib/client/main.js','client');
-  api.mainModule('lib/server/main.js','server');
+  api.use('mdg:validated-method@1.1.0');
+  api.mainModule('lib/client/client-main.js', 'client');
+  api.mainModule('lib/server/server-main.js', 'server');
 });
 
 Package.onTest(function(api) {

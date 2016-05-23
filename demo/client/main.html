@@ -4,11 +4,17 @@
 
 <body>
   <h1>Prosemeteor Package</h1>
-  {{> prosemeteor}}
+  <p>
+    Below are two separate ProseMeteorEditor instances. Each will connect to the AuthorityManager on the server
+    and ask it to open its document, which in turn will make the AuthorityManager create an Authority to start tracking
+    that individual document.
+  </p>
+  <div class="prosemeteor-demo" id="prosemeteor-poc-1">
+  </div>
+
+  <hr />
+
+  <div class="prosemeteor-demo" id="prosemeteor-poc-2">
+
+  </div>
 </body>
-
-<template name="prosemeteor">
-  <p>{{msg}}</p>
-  <div class="full"></div>
-</template>
-
