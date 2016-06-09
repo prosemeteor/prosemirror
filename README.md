@@ -12,3 +12,15 @@ The wiki is readable by everyone but if you would like to contribute please cont
 
 ## Developing
 To run the demo, use the `run_demo.sh` script. First give it executable permissions with `chmod +x ./run_demo.sh`, then run it with `./run_demo.sh`.
+
+
+### File Structure
+
+* `/demo` contains an example application
+* `/package.js` the Meteor atmosphere package file. Defines the `prosemeteor:prosemirror` package info and main code modules to include
+* `/lib/` directory that contains all source code
+* `/lib/client/client-main.js` the main entry point file for the client. exports client API
+* `/lib/server/server-main.js` the main entry point file for the server. exports server API
+* `/lib/imports/` all JS modules used by the package
+* `/lib/imports/startup/` all code for client and server that's run at startup
+* `/lib/imports/api/` package api's used internally
