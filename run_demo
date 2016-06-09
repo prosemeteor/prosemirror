@@ -1,7 +1,17 @@
 #!/bin/sh
 
-export PACKAGE_DIRS="$(dirname "$(pwd)")/" 
+echo "---------------------------------"
+echo "Setting PACKAGE_DIRS to $PACKAGE_DIRS so Meteor can find this package"
+echo "---------------------------------"
+export PACKAGE_DIRS="$(dirname "$(pwd)")/"
 
-echo "set PACKAGE_DIRS to " $PACKAGE_DIRS
+echo "---------------------------------"
+echo "Starting code linting in watch mode"
+echo "---------------------------------"
 
+npm run lint:watch &
+
+echo "---------------------------------"
+echo "Starting demo Meteor application"
+echo "---------------------------------"
 cd ./demo &&  meteor
