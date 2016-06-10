@@ -1,3 +1,4 @@
+/* eslint-disable */
 Package.describe({
   name: 'prosemeteor:prosemirror',
   version: '0.1.1',
