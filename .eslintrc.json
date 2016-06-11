@@ -7,7 +7,6 @@
     "standard"
   ],
   "rules": {
-
     "callback-return": 2,
     "arrow-parens": 0,
     "semi": [
