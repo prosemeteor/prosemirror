@@ -11,7 +11,7 @@ The wiki is readable by everyone but if you would like to contribute please cont
 
 
 ## Developing
-To run the demo, use the `run_demo.sh` script. First give it executable permissions with `chmod +x ./run_demo.sh`, then run it with `./run_demo.sh`.
+To run the demo, use the `run_demo.sh` script. First give it executable permissions with `chmod +x ./run_demo`, then run it with `./run_demo`.
 
 
 ### File Structure

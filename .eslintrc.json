@@ -8,13 +8,15 @@
   ],
   "rules": {
     "callback-return": 2,
-    "arrow-parens": 0,
+    "arrow-parens": 2,
     "semi": [
       2,
       "always"
     ],
-    "no-multiple-empty-lines": 0,
-    "space-before-function-paren": 0,
-    "no-var": 0
+    "no-multiple-empty-lines": 2,
+    "space-before-function-paren": 2,
+    "no-var": 2,
+    "quotes": [2, "backtick"],
+    "prefer-template": 2
   }
 }
