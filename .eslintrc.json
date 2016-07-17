@@ -16,7 +16,6 @@
     "no-multiple-empty-lines": 2,
     "space-before-function-paren": 2,
     "no-var": 2,
-    "quotes": [2, "backtick"],
     "prefer-template": 2
   }
 }
