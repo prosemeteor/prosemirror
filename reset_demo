@@ -1,0 +1,5 @@
+#!/bin/sh
+echo "---------------------------------"
+echo "Resetting the demo Meteor application"
+echo "---------------------------------"
+cd ./demo &&  meteor reset
