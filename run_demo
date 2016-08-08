@@ -9,6 +9,7 @@ echo "---------------------------------"
 echo "Starting code linting in watch mode"
 echo "---------------------------------"
 
+trap 'jobs -p | xargs kill' exists  # kill the background process when parent is killed
 npm run lint:watch &
 
 echo "---------------------------------"
