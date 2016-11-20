@@ -2,6 +2,8 @@
 ProseMeteor is a package integrating [ProseMirror](https://prosemirror.net/) and [Meteor.js](http://docs.meteor.com/#/full/).
 ProseMeteor is built for Meteor 1.3+
 
+## NOTE: This is not production ready. If you'd like to contribute please let us know!
+
 #Goals
 The primary goal is to provide a package that provides realtime collaborative WYSIWYG editing.
 
