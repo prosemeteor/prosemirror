@@ -1,16 +1,16 @@
 #!/bin/sh
 
+export METEOR_PACKAGE_DIRS="$(dirname "$(pwd)")/"
 echo "---------------------------------"
-echo "Setting PACKAGE_DIRS to $PACKAGE_DIRS so Meteor can find this package"
-echo "---------------------------------"
-export PACKAGE_DIRS="$(dirname "$(pwd)")/"
-
-echo "---------------------------------"
-echo "Starting code linting in watch mode"
+echo "Setting METEOR_PACKAGE_DIRS to $METEOR_PACKAGE_DIRS so Meteor can find this package"
 echo "---------------------------------"
 
-trap 'jobs -p | xargs kill' exists  # kill the background process when parent is killed
-npm run lint:watch &
+# echo "---------------------------------"
+# echo "Starting code linting in watch mode"
+# echo "---------------------------------"
+
+# trap 'jobs -p | xargs kill' exists  # kill the background process when parent is killed
+# npm run lint:watch &
 
 echo "---------------------------------"
 echo "Starting demo Meteor application"
