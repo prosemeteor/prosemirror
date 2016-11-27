@@ -17,5 +17,7 @@ standard-minifier-js@1.2.1    # JS minifier run for production mode
 es5-shim@4.6.15                # ECMAScript 5 compatibility for older browsers.
 ecmascript@0.6.1              # Enable ECMAScript2015+ syntax in app code
 
-prosemeteor:prosemirror
 shell-server
+dburles:mongo-collection-instances
+
+prosemeteor:prosemirror
