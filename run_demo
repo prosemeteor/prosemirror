@@ -13,6 +13,6 @@ echo "---------------------------------"
 # npm run lint:watch &
 
 echo "---------------------------------"
-echo "Starting demo Meteor application"
+echo "Starting demo Meteor application in "$(dirname "$(pwd)")/"demo "
 echo "---------------------------------"
 cd ./demo &&  meteor
