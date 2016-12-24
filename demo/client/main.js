@@ -3,7 +3,7 @@ import { Meteor } from 'meteor/meteor';
 
 const docActivityTimeoutCallback = ({ docId }) => {
   alert(`Document ${docId} activity timeout reached, shutting down server session`);
-}
+};
 
 Meteor.startup(function() {
   let editor1 = new ProseMeteorEditor({
