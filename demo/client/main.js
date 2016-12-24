@@ -6,29 +6,25 @@ const docActivityTimeoutCallback = ({ docId }) => {
 };
 
 Meteor.startup(function() {
-  if(Meteor.status().status === 'connected') {
-    let editor1 = new ProseMeteorEditor({
-      docId: 'proofOfConceptDocId1',
-      onDocActivityTimeout: docActivityTimeoutCallback,
-      proseMirrorOptions: {
-        place: document.getElementById('prosemeteor-poc-1'),
-        menuBar: true,
-        autoInput: true,
-        tooltipMenu: {selectedBlockMenu: true}
-      }
-    });
+  let editor1 = new ProseMeteorEditor({
+    docId: 'proofOfConceptDocId1',
+    onDocActivityTimeout: docActivityTimeoutCallback,
+    proseMirrorOptions: {
+      place: document.getElementById('prosemeteor-poc-1'),
+      menuBar: true,
+      autoInput: true,
+      tooltipMenu: {selectedBlockMenu: true}
+    }
+  });
 
-    let editor2 = new ProseMeteorEditor({
-      docId: 'proofOfConceptDocId2',
-      onDocActivityTimeout: docActivityTimeoutCallback,
-      proseMirrorOptions: {
-        place: document.getElementById('prosemeteor-poc-2'),
-        menuBar: true,
-        autoInput: true,
-        tooltipMenu: {selectedBlockMenu: true}
-      }
-    });
-  } else {
-    console.log('Meteor connection not ready yet');
-  }
+  let editor2 = new ProseMeteorEditor({
+    docId: 'proofOfConceptDocId2',
+    onDocActivityTimeout: docActivityTimeoutCallback,
+    proseMirrorOptions: {
+      place: document.getElementById('prosemeteor-poc-2'),
+      menuBar: true,
+      autoInput: true,
+      tooltipMenu: {selectedBlockMenu: true}
+    }
+  });
 });
