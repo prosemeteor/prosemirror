@@ -15,4 +15,4 @@ echo "---------------------------------"
 echo "---------------------------------"
 echo "Starting demo Meteor application in "$(dirname "$(pwd)")/"demo "
 echo "---------------------------------"
-cd ./demo &&  meteor --port 3000
+cd ./demo &&  meteor

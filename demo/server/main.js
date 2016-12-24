@@ -9,5 +9,5 @@ Meteor.startup(() => {
 let proseMeteorServer = new ProseMeteorServer({
   snapshotIntervalMs: 5000,
   protocol: 'http',
-  docActivityTimeoutMs: 1000 * 60
+  docActivityTimeoutMs: (1000 * 60) * 5
  });
