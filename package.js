@@ -21,6 +21,7 @@ Npm.depends({
 Package.onUse(function(api) {
   api.versionsFrom('1.3');
   api.use('ecmascript');
+  api.use('accounts-base');
   api.use('rocketchat:streamer@0.3.5');
   api.use('mdg:validated-method@1.1.0');
   api.use('http');
