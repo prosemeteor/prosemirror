@@ -6,8 +6,16 @@ Meteor.startup(() => {
 });
 
 // setup ProseMeteor on server
-let proseMeteorServer = new ProseMeteorServer({
+const proseMeteorServer = new ProseMeteorServer({
   snapshotIntervalMs: 5000,
   protocol: 'http',
-  docActivityTimeoutMs: (1000 * 60) * 5
- });
+  docActivityTimeoutMs: (1000 * 60) * 5,
+  authentication: {
+    canUserEditDoc({ userId, docId }) {
+      if (docId === 'proofOfConceptDocId2') {
+        return false;
+      }
+      return true;
+    }
+  }
+});
