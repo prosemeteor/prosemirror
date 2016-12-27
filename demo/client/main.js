@@ -7,7 +7,7 @@ const docActivityTimeoutCallback = ({ docId }) => {
 const authenticationErrorCallback = ({ userId, docId, type, elementId }) => {
   document.getElementById(elementId).innerHTML =
   `<div style="background-color: #ffa4a4;text-align:center;vertical-align:center;"> 
-        Auth Error: user id "${userId}" isn\'t allowed to ${type} doc ${docId}
+        Authentication Error: user id "${userId}" isn\'t allowed to "${type}" doc "${docId}"
     </div>`;
 };
 
