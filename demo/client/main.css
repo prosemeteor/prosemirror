@@ -3,3 +3,7 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+h3, p {
+  margin: 2px;
+}

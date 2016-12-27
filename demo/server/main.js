@@ -12,7 +12,7 @@ const proseMeteorServer = new ProseMeteorServer({
   docActivityTimeoutMs: (1000 * 60) * 5,
   authentication: {
     canUserEditDoc({ userId, docId }) {
-      if (docId === 'proofOfConceptDocId2') {
+      if (docId === 'proofOfConceptDocId3') {
         return false;
       }
       return true;
