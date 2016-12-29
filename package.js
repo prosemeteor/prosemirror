@@ -5,7 +5,7 @@ Package.describe({
   // Brief, one-line summary of the package.
   summary: 'Prosemirror integration for Meteor',
   // URL to the Git repository containing the source code for this package.
-  git: '',
+  git: 'https://github.com/prosemeteor/prosemirror',
   // By default, Meteor will default to using README.md for documentation.
   // To avoid submitting documentation, set this field to null.
   documentation: 'README.md'
@@ -21,6 +21,7 @@ Npm.depends({
 Package.onUse(function(api) {
   api.versionsFrom('1.3');
   api.use('ecmascript');
+  api.use('accounts-base');
   api.use('rocketchat:streamer@0.3.5');
   api.use('mdg:validated-method@1.1.0');
   api.use('http');

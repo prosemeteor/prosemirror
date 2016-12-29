@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="file://$PROJECT_DIR$/demo" libraries="{prosemirror/demo/node_modules}" />
+    <file url="PROJECT" libraries="{meteor-packages-auto-import-browser, meteor-packages-auto-import-npm}" />
+    <includedPredefinedLibrary name="ECMAScript 6" />
+    <includedPredefinedLibrary name="Meteor project library" />
+  </component>
+</project>

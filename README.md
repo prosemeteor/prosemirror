@@ -19,7 +19,13 @@ The wiki is readable by everyone but if you would like to contribute please cont
 
 
 ## Developing
-To run the demo, use the `run_demo.sh` script. First give it executable permissions with `chmod +x ./run_demo`, then run it with `./run_demo`.
+Since this project is still in development and the API will likely change, please see the demo application for proper API usage.
+
+To run the demo application, which provides some example documents for a testing playground, use the `run_demo.sh` script. 
+First give it executable permissions with `chmod +x ./run_demo`, then run it with `./run_demo`.
+
+To reset the demo application (clear its local database), give the `./reset_demo` bash script executable permissions as well 
+and run it with `./reset_demo`.
 
 
 ### File Structure

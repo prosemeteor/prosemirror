@@ -3,3 +3,13 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+h3, p {
+  margin: 2px;
+}
+
+section {
+  margin: 20px;
+  padding: 10px;
+  border-top: 1px solid gray;
+}

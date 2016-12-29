@@ -20,4 +20,7 @@ ecmascript@0.6.1              # Enable ECMAScript2015+ syntax in app code
 shell-server
 dburles:mongo-collection-instances
 
+accounts-base
+
 prosemeteor:prosemirror
+
