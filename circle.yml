@@ -6,7 +6,6 @@ machine:
 dependencies:
   override:
     - meteor npm install
-    - meteor list
 test:
   override:
     - meteor npm run lint
