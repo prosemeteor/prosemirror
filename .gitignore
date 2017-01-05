@@ -1,5 +1,6 @@
 .DS_STORE
 node_modules/
 .idea/workspace.xml
+.idea/prosemirror.iml
 npm-debug.log
 
