@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/prosemeteor/prosemirror.svg?style=svg)](https://circleci.com/gh/prosemeteor/prosemirror)
+[![CircleCI](https://circleci.com/gh/prosemeteor/prosemirror.svg?style=shield)](https://circleci.com/gh/prosemeteor/prosemirror)
 
 #Welcome to ProseMeteor.
 ProseMeteor is a package integrating [ProseMirror](https://prosemirror.net/) and [Meteor.js](http://docs.meteor.com/#/full/).
