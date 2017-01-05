@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/prosemeteor/prosemirror.svg?style=svg)](https://circleci.com/gh/prosemeteor/prosemirror)
+
 #Welcome to ProseMeteor.
 ProseMeteor is a package integrating [ProseMirror](https://prosemirror.net/) and [Meteor.js](http://docs.meteor.com/#/full/).
 ProseMeteor is built for Meteor 1.3+
